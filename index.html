@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <nav><ul>
+                <li>
+                    <a href="">About</a></li>
+                   <li> <a href="https://nta.ac.in/">Details</a></li>
+                    <li><a href="loginsignup.html">Sign Up</a></li>
+                    <li><a href="contact-us-page.html">Contact</a></li>
+
+            </ul></nav>
+            <div class="user">
+                <p>Home</p>
+                <img src="images/logo8.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <img src="images/search.png" class="search-icon">
+            <div class="social-links">
+                <img src="images/fb.png" alt="">
+                <img src="images/pt.png" alt="">
+                <img src="images/tw.png" alt="">
+ </div>
+ <img src="images/info.png" class="info-icon" >
+        </div>
+        <div class="msg-container">
+            <div id="slider">
+                <div class="msg-col">
+                    <h1>MHT-CET</h1>
+                    <p>The MHT-CET or Common Entrance Test is an annual entrance exam conducted by the Government of Maharashtra. It is conducted by the Directorate of Technical Education.The test is conducted in online mode for the first time in 2019. </p>
+                    <a href="mht_cet_new_html.html">learn more</a></div>
+                    <div class="msg-col">
+                        <h1>VITEEE</h1>
+                        <p> (VITEEE) is the common entrance test for admission into VIT Vellore, VIT Chennai, VIT Bhopal and VIT Andhra Pradesh. The VITEEE 2020 now, consists of a newly included Aptitude Section. Prior to the addition, the entrance exam comprised of MPCEA (Maths / Physics / Chemistry / English / Aptitude) for B.Tech Courses.</p>
+                        <a href="viteee (1).html">learn more</a>
+                </div>
+                <div class="msg-col">
+                    <h1>JEE-MAINS</h1>
+                    <p> Joint Entrance Examination – Main, formerly All India Engineering Entrance Examination, is an all India standardised computer-based test for admission to various technical undergraduate programs in engineering, architecture, and planning across India. The exam is conducted by the National Testing Agency. </p>
+                    <a href="mains.html">learn more</a>
+                </div>
+                <div class="msg-col">
+                    <h1>BIT-SAT</h1>
+                    <p>Birla Institute of Technology and Science Aptitude Test (BITSAT) is an all-India entrance exam conducted for admission into the 3 Birla Institute of Technology and Science (BITS) campuses, namely, BITS Pilani Campus, BITS Pilani KK Birla Goa Campus, and BITS Pilani, Hyderabad Campus.</p>
+                    <a href="">learn more</a>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="controller">
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div id="line3"></div>
+            <div id="line4"></div>
+            <din id="active"></din>
+</div>
+
+    </div>
+    <script>
+        var slider = document.getElementById('slider');
+        var active = document.getElementById('active');
+        var line1 = document.getElementById('line1');
+        var line2 = document.getElementById('line2');
+        var line3 = document.getElementById('line3');
+        var line4 = document.getElementById('line4');
+
+        line1.onclick = function(){
+            slider.style.transform = 'translateX(0)';
+        active.style.top = '0px'}
+
+            line2.onclick = function(){
+            slider.style.transform = 'translateX(-25%)';
+            active.style.top = '80px'}
+
+            line3.onclick = function(){
+            slider.style.transform = 'translateX(-50%)';
+            active.style.top = '160px'}
+
+            line4.onclick = function(){
+            slider.style.transform = 'translateX(-75%)';
+            active.style.top = '240px'}
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+    
+</body>
+</html>
